@@ -11,9 +11,12 @@ gem 'heroku'
 
 group :development do
     gem 'rspec-rails', '2.3.0'
+    gem 'annotate-models'
+    gem 'faker'
 end
 
 group :test do
+    gem 'factory_girl_rails'
     gem 'rspec', '2.3.0'
     gem 'webrat', '0.7.1'
     gem 'spork', '0.8.4'
